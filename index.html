@@ -16,17 +16,68 @@
 			max-width: 900px;
 			overflow-y: auto;
 		}
+		h1 {
+			text-align: center;
+		}
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+		}
+		li::marker {
+			display: none;
+		}
+		.schedule {
+			display: flex;
+			flex-flow: column nowrap;
+			gap: 10px;
+		}
+
+		.schedule__heading {
+			font-weight: bold;
+		}
+
+		.link--secret {
+			text-decoration: none;
+			color: black;
+			cursor: default;
+		}
 	</style>
 </head>
 <body>
 	<main>
 		<h1>We're getting married!</h1>
-		<h2>hello world</h2>
-		<a href="https://google.com" target="blank">rsvp here</a>
+		<span>RSVP: <a href="https://airtable.com/appt51tQBRKgc1DFD/pagUoOCii6OPMWPZd/form" target="blank">https://airtable.com/appt51tQBRKgc1DFD/pagUoOCii6OPMWPZd/form</a></span>
 		<h2>Schedule</h2>
-		<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ornare ante nisi, vel consequat nibh tincidunt quis. Suspendisse at orci lacus. Donec congue magna ut metus convallis, at consectetur eros efficitur. Fusce dolor dui, porttitor sit amet enim a, vestibulum dapibus tortor. Vestibulum non eros ipsum.</div>
-		<h2>Dress Code</h2>
-		<div>Donec sollicitudin velit eu mauris rhoncus tempus. Mauris at varius mi, in dapibus nibh.</div>
+		<section class="schedule">
+			<div>
+				<h3 class="schedule__heading">wedding</h3>
+				<ul>
+					<li>where: Groundfloor Club, 455 Valencia St, San Francisco, CA</li>
+					<li>when: Saturday August 16th, 6pm</li>
+					<li>dress code: what you’d wear to the ballet, or in the ballet??</li>
+					<li>The venue has multiple spaces, including a patio. The book clubs will be at this event.</li>
+				</ul>
+			</div>
+			<div>
+				<h3 class="schedule__heading">other events</h3>
+				<h4>speed-friending lunch</h4>
+				<ul>
+					<li>where: The Lawn at Parklab Gardens, 1379 4th St, San Francisco, CA</li>
+					<li>when: Saturday August 16th, 11:30am</li>
+					<li>dress code: whatever’s easiest -- casual is great, what you’ll be wearing later is great</li>
+					<li>Few things please us as much as introducing future-friends to each other.
+</li>
+				</ul>
+				<h4>park brunch</h4>
+				<ul>
+					<li>where: TBD Park, San Francisco, CA</li>
+					<li>when: Sunday August 17th, TBD</li>
+					<li>dress code: casual</li>
+					<li><a href="https://pbs.twimg.com/media/GjIY8XcbIAISBrb?format=jpg&name=large" target="blank" class="link--secret">Basil Corgi</a> meet-and-greet hours.</li>
+				</ul>
+			</div>
+		</section>
 		<h2>Other Info</h2>
 		<div>
 			<h3>Contact</h3>
