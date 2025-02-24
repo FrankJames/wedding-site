@@ -1,8 +1,15 @@
 <head>
 	<title>Frank & Diyang's Wedding</title>
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💍</text></svg>">
 	<style>
 		body {
-			background: pink;
+			background: repeating-linear-gradient(
+			  -45deg,
+			  #4cbb17,
+			  #4cbb17 60px,
+			  pink 60px,
+			  pink 120px
+			);
 			padding: 80px;
 			display: flex;
 			justify-content: center;
@@ -27,17 +34,12 @@
 		li::marker {
 			display: none;
 		}
-		.schedule {
-			display: flex;
-			flex-flow: column nowrap;
-			gap: 10px;
+
+		.rsvp {
+			text-align: center;
 		}
 
-		.schedule__heading {
-			font-weight: bold;
-		}
-
-		.link--secret {
+		.link__secret {
 			text-decoration: none;
 			color: black;
 			cursor: default;
@@ -46,22 +48,22 @@
 </head>
 <body>
 	<main>
-		<h1>We're getting married!</h1>
-		<span>RSVP: <a href="https://airtable.com/appt51tQBRKgc1DFD/pagUoOCii6OPMWPZd/form" target="blank">https://airtable.com/appt51tQBRKgc1DFD/pagUoOCii6OPMWPZd/form</a></span>
-		<h2>Schedule</h2>
-		<section class="schedule">
-			<div>
-				<h3 class="schedule__heading">wedding</h3>
-				<ul>
-					<li>where: Groundfloor Club, 455 Valencia St, San Francisco, CA</li>
-					<li>when: Saturday August 16th, 6pm</li>
-					<li>dress code: what you’d wear to the ballet, or in the ballet??</li>
-					<li>The venue has multiple spaces, including a patio. The book clubs will be at this event.</li>
-				</ul>
-			</div>
-			<div>
-				<h3 class="schedule__heading">other events</h3>
-				<h4>speed-friending lunch</h4>
+		<h1>Frank & Diyang's Wedding</h1>
+		<div class="rsvp">
+				Please <a href="https://airtable.com/appt51tQBRKgc1DFD/pagUoOCii6OPMWPZd/form" target="blank">RSVP</a> by June 16th 2025 (Bloomsday). If you can RSVP sooner, we'd really appreciate it!
+		</div>
+		<h2 id="wedding">💐 Wedding</h2>
+		<section>
+			<ul>
+				<li>where: Groundfloor Club, 455 Valencia St, San Francisco, CA</li>
+				<li>when: Saturday August 16th, 6pm</li>
+				<li>dress code: what you’d wear to the ballet, or in the ballet??</li>
+				<li>The venue has multiple spaces, including a patio. The book clubs will be at this event.</li>
+			</ul>
+		</section>
+		<h2 id="events">Other Events</h2>
+			<section>
+				<h3>🍜 speed-friending lunch</h3>
 				<ul>
 					<li>where: The Lawn at Parklab Gardens, 1379 4th St, San Francisco, CA</li>
 					<li>when: Saturday August 16th, 11:30am</li>
@@ -69,23 +71,26 @@
 					<li>Few things please us as much as introducing future-friends to each other.
 </li>
 				</ul>
-				<h4>park brunch</h4>
+				<h3>🧺 park brunch</h3>
 				<ul>
 					<li>where: TBD Park, San Francisco, CA</li>
 					<li>when: Sunday August 17th, TBD</li>
 					<li>dress code: casual</li>
-					<li><a href="https://pbs.twimg.com/media/GjIY8XcbIAISBrb?format=jpg&name=large" target="blank" class="link--secret">Basil Corgi</a> meet-and-greet hours.</li>
+					<li><a href="https://pbs.twimg.com/media/Ggp1jUUa4AAbTLG?format=jpg&name=large" target="blank" class="link__secret">Basil Corgi</a> meet-and-greet hours.</li>
 				</ul>
-			</div>
+			</section>
 		</section>
-		<h2>Other Info</h2>
+		<h2>Info</h2>
 		<div>
-			<h3>Contact</h3>
-			<div>Donec sollicitudin velit eu mauris rhoncus tempus. Mauris at varius mi, in dapibus nibh.</div>
-			<h3>Transportation</h3>
-			<div>Donec sollicitudin velit eu mauris rhoncus tempus. Mauris at varius mi, in dapibus nibh.</div>
-			<h3>Stuff to do in the bay</h3>
-			<div>Donec sollicitudin velit eu mauris rhoncus tempus. Mauris at varius mi, in dapibus nibh.</div>
+			<h3 id="transportation">🚌 Transportation</h3>
+			<div>
+				<h4>air travel</h4>
+				<div>SFO is the closest airport to the wedding. following that, OAK is the next closest. SJC is also in the area, but note that it is an hour's drive away from our wedding events.</div>
+				<h4>within san francisco</h4>
+				<div>BART and MUNI will get you between all three of our events. in fact, our wedding venue is only a block away from the 16th St and Mission BART stop!</div>
+			</div>
+			<h3 id="things-to-do">📍 Things to do in the bay</h3>
+			<div>we will fill out this section with our favorite restaurants, experiences, and things to see. please check back later for suggestions on what to do while you're here. we can't wait to see you!</div>
 		</div>
 	</main>
 </body>
