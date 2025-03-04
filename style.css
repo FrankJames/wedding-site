@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: georgia;
+  background-color: cadetblue;
+/*  background-image: url('strawberry_thief.jpg');*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background: white;
+  width: 90%;
+  min-width: 300px;
+  border-radius: 30px;
+  padding: 20px;
+  max-width: 900px;
+  overflow-y: auto;
+}
+
+h1 {
+  font-family: 'Pirata One', cursive;
+  font-size: 72px;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 36px;
+  margin-top: 1.3em;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+p {
+  max-width: 40em;
+  overflow-wrap: break-word;
+}
+
+li {
+  padding-bottom: 15px;
+}
+
+ul {
+  text-align: left;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  background-color: #ffebe6;
+  text-align: center;
+  width: fit-content;
+  max-width: 740px;
+  padding: min(50px, 5%);
+  border-radius: 75px;
+  margin: 40px auto;
+}
+
+.heart-thing {
+    font-weight: lighter;
+    color: #b78888;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: min(30px, 5%);
+  row-gap: min(40px, 6vw);
+}
+.grid p:nth-child(odd) { /* left */
+  text-align: right;
+  font-weight: bold;
+}
+.grid p:nth-child(even) { /* right */
+  text-align: left;
+}
+.grid p {
+  margin: 0;
+  min-width: 0;
+}
+
+ol {
+  text-align: left;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
