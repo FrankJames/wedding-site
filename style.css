@@ -6,21 +6,25 @@ html {
 
 body {
   font-family: georgia;
-  background-color: cadetblue;
-/*  background-image: url('strawberry_thief.jpg');*/
+  background-color: beige;
+  background-image: url('books.jpg');
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 30px;
 }
 
 main {
   background: white;
-  width: 90%;
   min-width: 300px;
   border-radius: 30px;
-  padding: 20px;
-  max-width: 900px;
   overflow-y: auto;
+  text-align: center;
+  width: fit-content;
+  max-width: 740px;
+  padding: min(50px, 5%);
+  border-radius: 30px;
 }
 
 h1 {
@@ -28,15 +32,18 @@ h1 {
   font-size: 72px;
   font-weight: normal;
   margin-top: 0;
+  text-align: center;
 }
 
 h2 {
   font-size: 36px;
   margin-top: 1.3em;
+  text-align: center;
 }
 
 h3 {
   font-size: 28px;
+  text-align: center;
 }
 
 p {
@@ -55,6 +62,10 @@ ul {
   margin-right: auto;
 }
 
+.rsvp {
+  text-align: center;
+}
+
 .main {
   background-color: #ffebe6;
   text-align: center;
@@ -65,9 +76,9 @@ ul {
   margin: 40px auto;
 }
 
-.heart-thing {
-    font-weight: lighter;
-    color: #b78888;
+.details {
+  margin-top: 30px;
+  text-align: center;
 }
 
 .grid {
@@ -88,9 +99,8 @@ ul {
   min-width: 0;
 }
 
-ol {
-  text-align: left;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+.link__secret {
+  text-decoration: none;
+  color: black;
+  cursor: default;
 }
