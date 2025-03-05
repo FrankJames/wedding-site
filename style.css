@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+
 
 html {
   font-size: 20px;
@@ -76,9 +77,10 @@ ul {
   margin: 40px auto;
 }
 
-.details {
+.right-aligned {
   margin-top: 30px;
-  text-align: center;
+  text-align: left;
+
 }
 
 .grid {
