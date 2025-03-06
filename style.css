@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 
+
 html {
   font-size: 20px;
 }
@@ -23,8 +24,12 @@ main {
   text-align: center;
   width: fit-content;
   max-width: 740px;
-  padding: min(50px, 5%);
+  padding: min(60px, 5%);
   border-radius: 30px;
+}
+
+section {
+  padding: 0 50px;
 }
 
 h1 {
@@ -66,19 +71,9 @@ ul {
   text-align: center;
 }
 
-.main {
-  background-color: #ffebe6;
-  text-align: center;
-  width: fit-content;
-  max-width: 740px;
-  padding: min(50px, 5%);
-  border-radius: 75px;
-  margin: 40px auto;
-}
-
-.details {
+.left-aligned {
   margin-top: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 .grid {
