@@ -80,7 +80,7 @@ ul {
   display: grid;
   grid-template-columns: 1fr 2fr;
   column-gap: min(30px, 5%);
-  row-gap: min(40px, 6vw);
+  row-gap: 20px;
 }
 .grid p:nth-child(odd) { /* left */
   text-align: right;
@@ -92,6 +92,10 @@ ul {
 .grid p {
   margin: 0;
   min-width: 0;
+}
+
+.suggestions {
+  font-size: 18px;
 }
 
 .link__secret {
