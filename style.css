@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Grenze&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 html {
   font-size: 20px;
 }
 
 body {
-  font-family: georgia;
+  font-family: 'Gentium Book Plus', sans-serif;
   background-color: beige;
   background-image: url('books.jpg');
   background-size: cover;
@@ -33,7 +33,7 @@ section {
 }
 
 h1 {
-  font-family: 'Pirata One', cursive;
+  font-family: 'Grenze', cursive;
   font-size: 72px;
   font-weight: normal;
   margin-top: 0;
