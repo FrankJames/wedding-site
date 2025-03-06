@@ -24,7 +24,7 @@ main {
   text-align: center;
   width: fit-content;
   max-width: 740px;
-  padding: min(50px, 5%);
+  padding: min(60px, 5%);
   border-radius: 30px;
 }
 
@@ -67,20 +67,10 @@ ul {
   text-align: center;
 }
 
-.main {
-  background-color: #ffebe6;
-  text-align: center;
-  width: fit-content;
-  max-width: 740px;
-  padding: min(50px, 5%);
-  border-radius: 75px;
-  margin: 40px auto;
-}
-
-.right-aligned {
+.left-aligned {
   margin-top: 30px;
   text-align: left;
-
+  padding: 0 50px;
 }
 
 .grid {
