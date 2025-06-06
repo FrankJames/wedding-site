@@ -10,9 +10,6 @@ body {
   background-color: beige;
   background-image: url('books.jpg');
   background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 10px;
 }
 
