@@ -1,3 +1,3 @@
 # wedding-site
 
-hosted at https://frankdiyang.wedding
+This site is no longer remotely hosted
